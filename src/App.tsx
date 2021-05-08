@@ -11,6 +11,12 @@ const TestComp1: React.FC<Props> = ({ text }) => {
   return <div>Test Component 1</div>;
 };
 
+const foo1 = ({text}:Props) => {
+  return (
+    <div></div>
+  )
+}
+
 // !exp This is a FUNCTION DECLARATION
 // !exp To typeset FUNCTION DECLARATIONS ===> use React.Node
 // !exp that is because we are typesetting the return value of the functon, which is a React Node
